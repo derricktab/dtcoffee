@@ -1,9 +1,3 @@
-/**
-* Template Name: BizLand - v1.2.1
-* Template URL: https://bootstrapmade.com/bizland-bootstrap-business-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
 /*--------------------------------------------------------------
 # General
@@ -1635,8 +1629,18 @@ section {
   bottom: 0 !important;
   right: 0 !important;
   left: 0 !important;
-  padding-top: 250px !important;
+  padding-top: 240px !important;
   z-index: 1 !important;
+  display: block !important;
+  padding-right: 50px !important;
+  padding-left: 50px !important;
+
+}
+
+@media(max-width: 720px){
+  .carousel-caption{
+    padding-top: 150px !important;
+  }
 }
 .faq1{
   margin-top: 20px !important;
@@ -1657,3 +1661,4 @@ section {
 .collapse p{
   padding-top: 10px;
 }
+
