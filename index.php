@@ -58,20 +58,22 @@ if(!$result){
   <!-- Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- Matomo -->
+<!-- Matomo -->
 <script>
   var _paq = window._paq = window._paq || [];
   /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(["setCookieDomain", "*.dizcoffee.com"]);
   _paq.push(['trackPageView']);
   _paq.push(['enableLinkTracking']);
   (function() {
     var u="//dizcoffee.com/piwik/";
     _paq.push(['setTrackerUrl', u+'matomo.php']);
-    _paq.push(['setSiteId', '1']);
+    _paq.push(['setSiteId', '2']);
     var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
     g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
   })();
 </script>
+<noscript><p><img src="//dizcoffee.com/piwik/matomo.php?idsite=2&amp;rec=1" style="border:0;" alt="" /></p></noscript>
 <!-- End Matomo Code -->
 
 </head>
@@ -99,13 +101,13 @@ if(!$result){
   <header id="header" class="sticky-top">
     <div class="container d-flex align-items-center">
 
-      <!-- <h1 class="logo mr-auto"><a href="index.html"> <span>DT</span> EXPORTERS </a></h1> -->
+      <!-- <h1 class="logo mr-auto"><a href="index.php"> <span>DT</span> EXPORTERS </a></h1> -->
 
-      <a href="index.html" class="logo mr-auto"><img src="assets\img\logo3.png" alt=""></a>
+      <a href="index.php" class="logo mr-auto"><img src="assets\img\logo3.png" alt=""></a>
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
-          <li class="active"><a href="index.html">Home</a></li>
+          <li class="active"><a href="index.php">Home</a></li>
           <li><a href="#about">About Us</a></li>
           <li class="drop-down"><a href="#products">Our Coffee</a>
           <ul>
@@ -880,9 +882,9 @@ Always assist our customers ethically, with respect and honesty. Encourage and p
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="index.html#about">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="index.html#contact">Contact</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.php">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.php#about">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.php#contact">Contact</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
             </ul>
           </div>
